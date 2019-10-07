@@ -1,0 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<header>
+    <nav class="navbar-nav-me">
+        <div class="container-fluid">
+<%--    <div class="parentDiv">--%>
+            <div class="navbar-header">
+<%--        <div class="childleftDiv"><a href="index" class="s-link">Strona główna</a></div>--%>
+                <a href="index" class="navbar-brand">Strona główna</a>
+                <a href="customers" class="navbar-brand">Klienci</a>
+                <a href="searchCustomer" class="navbar-brand">Wyszukaj klienta</a>
+                <a href="vehicles" class="navbar-brand">Pojazdy</a>
+                <a href="employees" class="navbar-brand">Pracownicy</a>
+                <a href="orders" class="navbar-brand">Zlecenia</a>
+                <a href="raports" class="navbar-brand">Raporty</a>
+            </div>
+        </div>
+    </nav>
+</header>
